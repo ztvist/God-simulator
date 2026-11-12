@@ -1,25 +1,28 @@
 
 {
-  "id": "/",
+  "id": "./",
   "name": "God Simulator",
   "short_name": "GodSim",
   "description": "Primitive Age Civilization Simulator",
-  "start_url": "/god-simulator/",
-  "scope": "/god-simulator/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "landscape",
-  "background_color": "#17251b",
-  "theme_color": "#17251b",
+  "background_color": "#172b1f",
+  "theme_color": "#172b1f",
   "icons": [
     {
       "src": "assets/icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "assets/icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
+
